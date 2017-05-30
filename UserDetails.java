@@ -3,14 +3,14 @@ package edu.learningHibernate.dto;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-@Entity //(name="User_Details")
+//@Entity //(name="User_Details")
 public class UserDetails {
-	@Id
+	//@Id
 	private int user_Id;
 	private String userName;
 	
 
-	public UserDetails(int user_Id, String userName) {
+	/*public UserDetails(int user_Id, String userName) {
 		super();
 		this.user_Id = user_Id;
 		this.userName = userName;
@@ -18,7 +18,7 @@ public class UserDetails {
 	
 	public UserDetails() {
 		super();
-	}
+	}*/
 
 	public int getUser_Id() {
 		return user_Id;
